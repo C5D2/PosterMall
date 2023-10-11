@@ -2,19 +2,11 @@
   "cart": [
     {
       "id": 3,
-      "product_id": 3,
-      "product_name": "Ritual",
-      "product_price": 250000,
-      "cart_cnt": "1",
-      "cart_product_amount": 500000
-    },
-    {
-      "id": 8,
-      "product_id": 8,
-      "product_name": "Stephanie Blau",
-      "product_price": 34000,
-      "cart_cnt": 1,
-      "cart_product_amount": 34000
+      "productId": 3,
+      "productName": "Ritual",
+      "productPrice": 250000,
+      "cartCnt": 1,
+      "cartProductAmount": 500000
     }
   ],
   "product": [
@@ -111,12 +103,63 @@
   ],
   "orders": [
     {
-      "orderId": 1,
-      "itemList": [
+      "orderId": 2,
+      "orderStatus": "sell",
+      "orderedDate": "2023-05-05T00:00:00",
+      "totalOrderPrice": 1000000,
+      "orderedProducts": [
         {
-          "itemId": "a1",
-          "itemName": "Item A",
-          "quantity": 2
+          "productId": 1,
+          "productName": "스포츠",
+          "orderedAmount": 7,
+          "orderedPrice": 20000,
+          "totalOrderedPrice": 140000,
+          "orderedSize": "123x123",
+          "orderedImagePath": "11"
+        },
+        {
+          "productId": 3,
+          "productName": "가요",
+          "orderedAmount": 8,
+          "orderedPrice": 40000,
+          "totalOrderedPrice": 320000,
+          "orderedSize": "164x164",
+          "orderedImagePath": "666"
+        },
+        {
+          "productId": 5,
+          "productName": "인기",
+          "orderedAmount": 9,
+          "orderedPrice": 60000,
+          "totalOrderedPrice": 540000,
+          "orderedSize": "198x198",
+          "orderedImagePath": "123"
+        }
+      ]
+    },
+    {
+      "orderId": 3,
+      "orderStatus": "sell",
+      "orderedDate": "2023-07-11T00:00:00",
+      "totalOrderPrice": 320000,
+      "orderedProducts": [
+        {
+          "productId": 1,
+          "productName": "스포츠",
+          "orderedAmount": 6,
+          "orderedPrice": 20000,
+          "totalOrderedPrice": 120000,
+          "orderedSize": "123x123",
+          "orderedImagePath": "11"
+        },
+        {
+          "productId": 3,
+          "productName": "가요",
+          "orderedAmount": 5,
+          "orderedPrice": 40000,
+          "totalOrderedPrice": 200000,
+          "orderedSize": "164x164",
+          "orderedImagePath": "666"
         }
       ]
     }

@@ -19,7 +19,7 @@ import ProductManagement from "../page/admin/ProductManagement";
 import ProductModification from "../page/admin/ProductModification";
 import ProductRegistration from "../page/admin/ProductRegistration";
 import Order from "../page/order/Order";
-import OrderHistory from "../page/userPage/OrderHistory";
+import OrderHistory from "../page/OrderHistory/OrderHistory";
 
 const router = createBrowserRouter([
   {
