@@ -140,7 +140,7 @@ export const ProductTable = () => {
 
         {/* 페이징 숫자 목록, 최대 5개의 페이지 번호 생성, 마지막 페이지 그룹에서는 남은 페이지 수만큼만 버튼 생성 */}
         {[...Array(Math.min(5, pageCount - pageRangeStartIndex))].map(
-          (x, i) => (
+          (_, i) => (
             <TableButton
               key={i}
               onClick={() => gotoPage(pageRangeStartIndex + i)}
